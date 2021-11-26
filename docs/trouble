@@ -1,0 +1,231 @@
+<html>
+<head>
+	<style>
+	* 
+	{
+		box-sizing: border-box;
+	}
+
+	body
+	{
+  		font-family:dfkAI-sb;
+  		padding: 10px;
+  		background:#99bbff;
+	}
+
+	h2
+	{
+		font-size:1.4em
+	}
+
+	.ai
+	{
+		color:black;
+	}
+
+	.list1
+	{
+ 	 	overflow: hidden;
+  	background-color:#001a66;
+	}
+	.list1 a
+	{
+  	float:left;
+ 	 	display:block;
+  	color:white;
+  	text-align:center;
+ 	 	padding:14px 16px;
+  	text-decoration:none;
+	}
+	.list1 a:hover 
+	{
+  		background-color:#ffff99;
+  		color:#001a66;
+	}
+
+	.list2
+	{
+ 	 	overflow: hidden;
+  	background-color:#3366ff;
+	}
+	.list2 a
+	{
+  	float:left;
+ 	 	display:block;
+  	color:white;
+  	text-align:center;
+ 	 	padding:14px 16px;
+  	text-decoration:none;
+	}
+	.list2 a:hover 
+	{
+  		background-color:#ffff99;
+  		color:#3366ff;
+	}
+
+
+	.content
+	{   
+  		font-family:dfkAI-sb;
+  		float:left;
+  		width:100%;
+  		color:black;
+  		background-color:#e6f2ff;
+  		margin:5px;
+  		font-size:1.2em
+	}
+
+	</style>
+</head>
+
+<body>
+<div class="ai">
+	<img
+	src="圖片1.png"
+	width="70"
+	height="50" 
+	align="left"
+	>
+  <h1>人工智慧</h1>
+</div>
+
+<div class="list1">
+  <a href="">歷史</a>
+  <a href="">發展困境</a>
+  <a href="">技術</a>
+  <a href="">應用</a>
+  <a href="">例子</a>
+  <a href="">優點</a>
+  <a href="">缺點/未來擔憂</a>
+</div>
+
+<div class="list2">
+	<h7 id="list2"></h7>
+  <a href="#a">人工智慧的誕生</a>
+  <a href="#b">黃金年代</a>
+  <a href="#c">第一次AI低谷</a>
+  <a href="#d">繁榮</a>
+  <a href="#e">第二次AI低谷</a>
+  <a href="#f">AI</a>
+</div>
+
+<div class="content">
+		<h2 id="a"><font color="#003399">人工智慧的誕生: 1943 - 1956</font></h2>
+		<p>
+			<b>前情提要:</b>在早期的希臘神話、中世紀時期或19世紀的幻想小說中已經出現過類似人造人、以及會行思考的機器等…，其實人工智慧的基礎就是建立在<font color="#ff0000">將人類的思考進行機械化</font>，也就是所謂<font color="#ff0000">形式推理</font>，例如：歐幾里得的幾何原本可稱為形式推理的典範。在那之後因為圖靈的出現，使眾人驚呼「一台僅能處理0跟1的機器竟然能夠模擬數學推理過程!」這一創造激發科學家們探討讓機器思考的可能。
+		</p>
+		<h3>早期神經網路</h3>
+		<p>
+		<ul>
+		<li><abbr title="諾伯特·維納">Norbert Wiener</abbr>的控制論描述了電子網絡的控制和穩定性</li>
+		<li><abbr title="克勞德·艾爾伍德·夏農">Claude Elwood Shannon</abbr>提出的資訊理論則描述了數位訊號</li>
+		<li><abbr title="艾倫·麥席森·圖靈">Alan Mathison Turing</abbr>
+		的計算理論證明數位訊號足以描述任何形式的計算</li>
+		<img
+		src="https://ppt.cc/feLEvx@.png"
+		width="180"
+		height="60" 
+		>
+		</ul>
+		&emsp;&emsp;<abbr title="沃爾特·皮茨">Walter Pitts</abbr>和<abbr title="沃倫·麥卡洛克">Warren McCulloch</abbr>分析了理想化的人工神經元網絡，並且指出了它們進行簡單邏輯運算的機制。他們是最早描述所謂「神經網絡」的學者。
+		1951年他們的學生<abbr title="馬文·李·明斯基">Marvin Lee Minsky</abbr>與<abbr title="迪恩·埃德蒙">Dean Edmonds</abbr>一起建造了第一台神經網絡機，稱為SNARC。
+		</p>
+		<h3>1950年:圖靈測試</h3>
+		<p>
+		&emsp;&emsp;由於注意到「智能」這一概念難以確切定義，圖靈提出了著名的圖靈測試：「這項測試的主要目的在於『判斷一台機器是否具有跟人類同等的智能』，主要測試的方法是就由一個提問者C去對兩個觀察對象:機器的A以及人類的B去進行測試，若在測試結束後C無法將A以及B區別出人類和機器，那就代表A通過了測試， 這項測試在經過變形後，『完全圖靈測試』也成為了現在設計人工智慧(Artificial Intelligence)的一項參考準則。」
+		</p>
+		<h3>1951年:初嘗試西洋棋AI</h3>
+		<p>
+		&emsp;&emsp;<abbr title="克里斯多福·斯特雷奇">Christopher Strachey</abbr>寫出了一個西洋跳棋程序；<abbr title="迪特里希·普林茨">Dietrich Prinz</abbr>則寫出了一個西洋棋程序。
+		</p>
+		<h3>1956年：達特茅斯會議(AI的誕生)</h3>
+		<p>
+		&emsp;&emsp;<abbr title="馬文·李·明斯基">Marvin Lee Minsky</abbr>、<abbr title="約翰·麥卡錫">John McCarthy</abbr>和另兩位資深科學家<abbr title="克勞德·艾爾伍德·夏農">Claude Elwood Shannon</abbr>以及<abbr title="內森·羅徹斯特">Nathan Rochester</abbr>組織達特茅斯會議，會議中他們發起了一個人工智慧研究計畫，目的是為了召集志同道合的人來參與討論。主要的議題有：自然計算機、神經網路、計算概論等。
+		</p>
+    <a href="#list2">Top</a>
+</div>
+<div class="content">
+		<h2 id="b"><font color="#003399">黃金年代: 1956 - 1974</font></h2>
+		<p>
+			在這一階段中開發出的程序可謂突飛猛進，例如：計算機可以解決代數應用題，證明幾何定理，學習和使用英語。
+		</p>
+		<h3>搜索式推理</h3>
+		<p>
+		&emsp;&emsp;所謂的搜索式推理就好比在迷宮裡，你為了找到出路會在路上遇到死路而走回去岔路的地方，而這就是「搜索式推理」。但問題是你不知道你會遇到多少次的岔路，因此出現了啟發式推理。
+		</p>
+		<h3>自然語言</h3>
+		<p>
+		<ul>
+			<li><b>自然語言處理(NLP)</b>為人工智慧的核心技術之一，是一種透過複雜的數學模型及演算法來讓機器去認知、理解並運用我們的語言的技術。機器翻譯就是 NLP 應用的一種，我們將需要被翻譯的文本輸入進所謂的 NLP 系統，而背後的演算法以及模型就會處理辨識、理解、以及生成等流程，最後再輸出被翻譯好的目標語言資訊。</li>
+			<li><b>自然語言理解(NLU)</b>目的在於讓系統能夠讀懂我們所輸入的資訊，讓其理解文本、語言並提取資訊，以幫助文本分類、語法分析、資訊搜索等下游任務的執行。</li>
+			<li><b>自然語言生成(NLG)</b>系統的目標是要通過整合、節錄、以及萃取數據庫中的資料，以將這些機器才能讀懂的數據以自然語言的形式輸出。簡單來說即是將只有機器才能看懂的資料架構，也就是像0101010101的機器語言，轉化成人類能理解的字句，以完成如文本摘要、新聞自動化、機器翻譯等任務。</li>
+			</ul>
+		</p>
+		<h3>微世界</h3>
+		<p>
+		&emsp;&emsp;學科中往往使用簡化模型幫助基本原則的理解。許多研究的場景是「積木世界」，其中包括一個平面，上面擺放著一些不同形狀，尺寸和顏色的積木。他們將這個世界轉成現實，例如利用機械手臂，將在微世界所做的動作移往現實，進而創造出了會堆疊積木的機械手臂。
+		<br>
+		&emsp;&emsp;在微世界中成就最高的為SHRDLU，我們可以在它內部進行物體的移動、命名、查詢等各種操作。
+		</p>
+    <a href="#list2">Top</a>
+</div>
+<div class="content">
+		<h2 id="c"><font color="#003399">第一次AI低谷: 1974 - 1980</font></h2>
+		<p>
+		<b>問題:</b>70年代初期，計算機<font color="#ff0000">有限的內存</font>以及<font color="#ff0000">處理速度不足</font>，再加上<font color="#ff0000">計算複雜化</font>與<font color="#ff0000">指數爆炸</font>，使得AI無法解決實際的問題，許多人開始認為AI永遠不會發展為實用的系統。
+		</p>
+		<h3>停止撥款</h3>
+		<p>
+		&emsp;&emsp;由於AI發展緩慢且方向不明確，1969年時，也有學者建議資助「<font color="#ff0000">有明確任務方向</font>」的研究，而不是「<font color="#ff0000">無方向</font>」的基礎研究，因此許多國家紛紛停止資助AI研究，到了1974年幾乎找不到任何對AI的資金援助。
+		</p>
+		<h3>來自大學的批評</h3>
+		<p>
+		&emsp;&emsp;有些學者開始諷刺AI界未實現的預言，並認為符號對於機器本身並沒有任何意義，因此不能認為機器本身有思考能力。另外有位醫生開發了聊天機器人並將它用於真正的醫療工具，此事造成學者開始思考<font color="#ff0000">AI的倫理問題</font>，約瑟夫．維森鮑姆於1976年發表了一本書籍《計算機的力量與人類的推理》，書中認為AI的發明及濫用，將會損害人類生命及價值。
+		</p>
+    <a href="#list2">Top</a>
+</div>
+<div class="content">
+		<h2 id="d"><font color="#003399">繁榮: 1980 - 1987</font></h2>
+		<h3>專家系統獲得賞識</h3>
+		<p>
+		&emsp;&emsp;專家系統是一種能使用具有邏輯規則的知識在專有領域解決問題的一種程序。其避免掉了世俗的常識問題，因此它能夠<font color="#ff0000">較容易的修改及實踐</font>，使得AI開始變得實用。1965年出現了能夠依據分光計讀數分辨物質的機器，1972年更是發展出能診斷血液傳染病的機器。
+		</p>
+		<h3>知識革命</h3>
+		<p>
+		&emsp;&emsp;專家系統的強大來自於他們所擁有及儲存的專業知識，<font color="#ff0000">知識庫系統</font>以及<font color="#ff0000">知識工程</font>成為了80年代的一大AI研究方向。而第一個試圖使機器能解決嘗試問題的程序也在80年代出現，方法是建立一個能容納普通人所擁有的常識庫，但這項發明沒有捷徑，只能讓機器學習一個一個的常識，因此幾十年來皆尚未完成。
+		</p>
+		<h3>重獲撥款:第五代工程</h3>
+		<p>
+		&emsp;&emsp;首先由日本在1981年提供了八億五千萬美元研究AI，其目標是能創造出一個能<font color="#ff0000">與人對話</font>、<font color="#ff0000">翻譯語言</font>、<font color="#ff0000">解釋圖像</font>，並且能像人一樣具<font color="#ff0000">有推理能力的機器</font>。之後，各大國便紛紛響應，撥了比原先好幾倍的巨額來發展AI科技。
+		</p>
+		<h3>連結主義的重生</h3>
+		<p>
+		&emsp;&emsp;1982年John Hopfield發明了新型的神經網絡，能夠用<font color="#ff0000">全新的方式學習知識及處理信息</font>，連結主義因此重獲新生。1986年「分布式並行處理」的系統問世，此系統問世後也得到了商業上的成功，便被應用於光字符識別和語音識別軟體。
+		</p>
+    <a href="#list2">Top</a>
+</div>
+<div class="content">
+		<h2 id="e"><font color="#003399">第二次AI低谷: 1987 - 1993</font></h2>
+	<h3>1987:Lisp機的市場崩潰</h3>
+	<p>
+	&emsp;&emsp;Lisp為函數式程式語言，是目前第二悠久而仍被廣泛使用的高階計算機程序語言，特色為獨特的符號化表示法。另外，相比早期程式語言也較為靈活，足以改變自身形式以適應需求，在人工智慧研究中應用於研究所需的計算能力上，長期作為人工智慧領域中最受歡迎的程式語言。
+	<br>
+	&emsp;&emsp;Lisp機為以Lisp為主要軟體開發語言的通用型計算機，但在1987年IBM和Apple電腦沒有用到AI技術但性能上卻超過了價格昂貴的LISP機，便宜且運算力更強的優勢使AI硬體市場需求下跌。
+	</p>	
+	<h3>1988年:美國取消了新的AI經費。</h3>
+	<p>DARPA的戰略計算促進會（Strategic Computing Initiative）認為AI並非下一個浪潮，投資AI性價比不高，決定撥款給更容易出成果的項目，因此取消了新的AI經費。
+	</P>
+	<h3>1990年代:日本第五代計算機失敗。</h3>
+	<p>
+		
+	</p>
+  <a href="#list2">Top</a>
+</div>
+<div class="content">
+		<h2 id="f"><font color="#003399">AI: 1993 - 至今</font></h2>
+	
+    <a href="#list2">Top</a>
+</div>
+
+</body>
+</html>
